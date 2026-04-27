@@ -88,7 +88,7 @@ public class LoginVista extends JFrame {
         String contrasena = new String(txtContrasena.getPassword());
 
         if (nombre.isEmpty() || contrasena.isEmpty()) {
-            lblMensaje.setText("Complete todos los campos.");
+            lblMensaje.setText("escriba en todos los campos.");
             return;
         }
 
